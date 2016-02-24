@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div class="outer"
+  {% if page.bgimage %}style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ page.bgimage }});background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    "
+  {% endif %}>
+    <div class="middle">
+      <div class="inner">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page..subtitle }}</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>
