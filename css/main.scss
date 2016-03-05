@@ -24,7 +24,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          700px;
+$on-palm:          800px;
 $on-laptop:        800px;
 
 
@@ -171,4 +171,13 @@ a.button {
 
 a.button:hover {
     text-decoration: none;
+}
+
+img.headshot {
+    width: 250px;
+    float: left;
+    margin: 0 1em 1em 0;
+    @include media-query($on-palm) {
+        width: 150px;
+    }
 }
