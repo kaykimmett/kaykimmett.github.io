@@ -60,28 +60,6 @@ $on-laptop:        800px;
     color: white;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-@include media-query($on-palm) {
-    h1 {
-        font-size: 2em;
-    }
-}
-
-h2 {
-    font-size: 1.2em;
-    width: 70%;
-    margin: 0 auto;
-}
-
-@include media-query($on-palm) {
-    h2 {
-        font-size: 1em;
-    }
-}
-
 h4 {
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
@@ -99,6 +77,29 @@ h4 {
     margin-left: auto;
     margin-right: auto; 
     width: 50%;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    @include media-query($on-palm) {
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    h2 {
+        font-size: 1.2em;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    @include media-query($on-palm) {
+        h2 {
+            font-size: 1em;
+        }
+    }
+
 }
 
 @include media-query($on-palm) {
@@ -120,7 +121,15 @@ h4 {
 }
 
 .vertical-margin {
-    margin: 6em 0;
+    margin: 3em 0;
+
+    h2 {
+        font-weight: 600;
+    }
+
+    h3 {
+        font-weight: 500;
+    }
 }
 
 li {
@@ -135,10 +144,12 @@ li {
     }
 }
 
-h3 {
-    text-align: center;
-    i {
-        padding: 0 1em;
+.home-cta {
+    h3 {
+        text-align: center;
+        i {
+            padding: 0 1em;
+        }
     }
 }
 
