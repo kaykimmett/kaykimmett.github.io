@@ -1,11 +1,11 @@
 # Site settings
 title: Kay Kimmett Tutoring
-email: kay.kimmett@ntlworld.com
+email: kay@kaykimmett.com
 phone: 01489 583127
 description: > # this means to ignore newlines until "baseurl:"
   Southampton based English tuition, tailored to your child’s individual needs. 15 years experience of teaching English Language and English Literature curricula in the state and private sector.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.kaykimmett.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
