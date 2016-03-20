@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    color: white;
+    background-color: #D1AFC2;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -32,7 +32,8 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $brand-color;
+        text-decoration: underline;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
