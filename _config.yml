@@ -3,9 +3,7 @@ title: Kay Kimmett Tutoring
 email: kay@kaykimmett.com
 phone: 02380 000301
 description: > # this means to ignore newlines until "baseurl:"
-  Southampton based English tuition, tailored to your child’s individual needs. 15 years experience of teaching English Language and English Literature curricula in the state and private sector.
-
-  Areas covered: Southampton, Portsmouth, Eastleigh, Fareham, Whiteley, Hedge End, Chandler's Ford, Swanmore
+  Areas covered: Southampton, Portsmouth, Eastleigh, Fareham, Bitterne, Portswood, Whiteley, Hedge End, Chandler's Ford, Swanmore, Bursledon
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.kaykimmett.com" # the base hostname & protocol for your site
 
