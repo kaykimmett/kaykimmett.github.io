@@ -25,6 +25,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    800px;
 
 $on-palm:          800px;
+$bottom-break:     700px;
 $on-laptop:        800px;
 
 
@@ -177,9 +178,20 @@ img.headshot {
     width: 250px;
     height: 250px;
     float: right;
-    margin: 0 1em 1em 0;
+    margin: 0 0 1em 1em;
     @include media-query($on-palm) {
         width: 150px;
         height: 150px;
+    }
+}
+
+img.pencil {
+    margin: 0 1em 0 0;
+    width: 250px;
+    float: left;
+    @include media-query($bottom-break) {
+        margin: 0 0 1em 0;
+        width: 100%;
+        float: none;
     }
 }
