@@ -56,7 +56,7 @@ $on-laptop:        800px;
     font-family: 'Josefin Slab', serif;
     display: table;
     background-color: $brand-color;
-    padding: 5em 0;
+    padding: 1em 0;
     width: 100%;
     color: white;
 }
@@ -137,6 +137,11 @@ li {
     padding: 0.5em;
 }
 
+ul.no-bullet {
+    list-style-type: none;
+    padding: 0.5em 0;
+}
+
 .fa-ul {
     li:before {
         font-family: 'FontAwesome';
@@ -187,7 +192,7 @@ img.headshot {
 
 img.pencil {
     margin: 0 1em 0 0;
-    width: 250px;
+    width: 400px;
     float: left;
     @include media-query($bottom-break) {
         margin: 0 0 1em 0;
