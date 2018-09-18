@@ -200,3 +200,14 @@ img.pencil {
         float: none;
     }
 }
+
+img.illustration {
+    margin: 0 1em 0 0;
+    width: 100%;
+    float: left;
+    @include media-query($bottom-break) {
+        margin: 0 0 1em 0;
+        width: 100%;
+        float: none;
+    }
+}
