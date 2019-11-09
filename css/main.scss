@@ -191,7 +191,7 @@ img.headshot {
 }
 
 img.pencil {
-    margin: 0 1em 0 0;
+    margin: 1em;
     width: 400px;
     float: left;
     @include media-query($bottom-break) {
